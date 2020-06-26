@@ -1,6 +1,6 @@
 import React from "react"
-import Link from 'gastby-link'
-import Layout from '../components/indexLayout'
+import {Link} from 'gastby'
+import Layout from '../components/indexLayout.js'
 import Img from 'gatsby-image'
 import {graphql} from 'gatsby'
 
@@ -21,7 +21,8 @@ const IndexPage = props => (
             </p>
 
             <p>
-              The Toastmasters Clud of KPRIET. We are the speakers and debators of KPRIET
+              Toastmasters Club is built by Students who have guts to express their opinions in structured
+              way and develop their Communicative and Stage Skills by helping each other.
             </p>
 
             <a
@@ -55,7 +56,8 @@ const IndexPage = props => (
             <p className="hero-header">Explore Us </p>
             <div className = "dash" />
             <p>
-              TMC is a union of people who come together to uphold the Speaking Spirit.
+            The KPRIET Toastmasters Club is an organization that enables members to improve English communication skills
+             and terminate stage fear in a safe, encouraging, supportive environment.
             </p>
           </div>
         </section>
@@ -110,7 +112,7 @@ const IndexPage = props => (
 export const firstSiteImages = graphql`
   fragment firstSiteImages on File{
     childImageSharp{
-      fluid (maxwidth: 1000){
+      fluid (maxWidth: 1000){
         ...GatsbyImageSharpFluid_tracedSVG
       }
     }
