@@ -9,10 +9,10 @@ const Header = ({ siteTitle }) => (
     <Helmet
       title={GatsbyConfig.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sahyadri Open-Source Community' },
+        { name: 'description', content: 'KPRIET Toastmasters Club' },
         {
           name: 'keywords',
-          content: 'Community, OpenSource, SOSC, sahyadri, student',
+          content: 'Community, Toastmasters, Orators, KPR, college',
         },
       ]}
       link={[{ rel: 'shortcut icon', type: 'image/ico', href: `${favicon}` }]}
@@ -30,11 +30,6 @@ const Header = ({ siteTitle }) => (
           <li>
             <Link to="/events" exact="true" activeClassName="active">
               Events
-            </Link>
-          </li>
-          <li>
-            <Link to="/blog" exact="true" activeClassName="active">
-              Blogs
             </Link>
           </li>
           <li>
