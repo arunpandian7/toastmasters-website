@@ -1,5 +1,5 @@
 import React from "react"
-import {Link} from 'gastby'
+import {Link} from 'gatsby'
 import Layout from '../components/indexLayout.js'
 import Img from 'gatsby-image'
 import {graphql} from 'gatsby'
@@ -10,11 +10,10 @@ const IndexPage = props => (
       <div className="container">
         <section className="hero-section">
           <div className="hero-texts">
-            <Img
+            {/* <Img
             fluid={props.data.imageFirst.childImageSharp.fluid}
-            className='club-logo'
-            alt='TMC'
-            />
+            className="tmc-logo"
+            />             */}
             <p className="tmc-header">
               KPRIET <br />
               Toastmasters Club
@@ -26,8 +25,8 @@ const IndexPage = props => (
             </p>
 
             <a
-            href="#Attach Google Form Link"
-            clasName = 'btn-hero-green'
+            href="#AttachGoogleFormLink"
+            className = 'btn-hero-green'
             >
             Join Us
             </a>
@@ -35,7 +34,7 @@ const IndexPage = props => (
 
           <div>
             <Img
-            fluid={props.data.imageOne.childImageSharp.fluid}
+            fluid={props.data.imageFirst.childImageSharp.fluid}
             className='hero-image'
             alt='hero image'
             />
@@ -53,11 +52,13 @@ const IndexPage = props => (
           />
 
           <div className="hero-texts">
-            <p className="hero-header">Explore Us </p>
+            <p className="hero-header">Who are we? </p>
             <div className = "dash" />
             <p>
-            The KPRIET Toastmasters Club is an organization that enables members to improve English communication skills
-             and terminate stage fear in a safe, encouraging, supportive environment.
+            People are often confused by the name "Toastmasters." Some think it's about learning how to give toasts at events. A few even think the organization has something to do with making toast. But it's not. <br /><br />
+            The KPRIET Toastmasters Club is an organization that enables members to improve English communication skills and terminate stage fear in a safe, encouraging, supportive environment for the students to speak up as icebreaker.
+
+
             </p>
           </div>
         </section>
@@ -66,10 +67,11 @@ const IndexPage = props => (
       <div className = "container">
         <section className = "hero-section3">
           <div className="hero-texts">
-            <p className = "hero-header">Show your skills</p>
+            <p className = "hero-header">What do we do?</p>
             <div className="dash" />
             <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            The KPRIET Toastmasters Club fosters people and develop the public speaking skills of the students and reduce their stage fear through nuiances like Non-Verbal which also enhances their English language skills.
+            We provide constant moc support in terms of content writing and speaking.
             </p>
           </div>
           <Img
@@ -89,20 +91,42 @@ const IndexPage = props => (
             />
           </div>
           <div className="hero-texts">
-            <p className="hero-header">Get Connected !</p>
+            <p className="hero-header">Join our Team</p>
             <div className="dash" />
             <p>
-              Meet people with similar interest to work together on projects and
-              host events to build a better collaborative environment. We are
-              more than 100 members with interests on various fields of
-              technology here to know each other and get connected. Meet our
-              members to know more about us and build something cool!
+            Lorem Ipsum fdjkflasfjsakld
+            
             </p>
             <Link to="/team" className="btn-hero-green">
               Learn More
             </Link>
           </div>
         </section>
+      </div>
+      <div className="container">
+        <div className="hero-section5">
+        <div className="hero-texts">
+          <p className="hero-header"> Our Basic Activities</p>
+          <div className="dash" />
+          <p>
+            We conduct regular meetings
+            <ul>
+            <li>contests</li>
+            <li>events</li>
+            <li>Webinars</li>
+            <li>Anchoring & Content writing skills</li>
+            <li>Online certification courses</li>
+            </ul>
+          </p>
+        </div>
+        <div>
+            <Img
+              fluid={props.data.imageFive.childImageSharp.fluid}
+              className="hero-image"
+              alt="hero image"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </Layout>
@@ -112,11 +136,13 @@ const IndexPage = props => (
 export const firstSiteImages = graphql`
   fragment firstSiteImages on File{
     childImageSharp{
-      fluid (maxWidth: 1000){
+      fluid (maxWidth: 800){
         ...GatsbyImageSharpFluid_tracedSVG
       }
     }
   }
+
+
 
 `
 
@@ -135,6 +161,9 @@ export const pageQuery = graphql`
       ...firstSiteImages
     }
     imageFour: file(relativePath: { eq: "images/hero_connect_.png" }) {
+      ...firstSiteImages
+    }
+    imageFive: file(relativePath: { eq: "images/activity.png" }) {
       ...firstSiteImages
     }
   }
