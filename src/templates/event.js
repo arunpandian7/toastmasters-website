@@ -1,11 +1,9 @@
 import React from 'react'
 import RegistrationLink from '../components/btn_event_link'
-import FeedbackLink from '../components/btn_event_feedback_link'
 import moment from 'moment' 
 import Layout from '../components/indexLayout'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import feedback from '../../config'
 import GatsbyConfig from '../../gatsby-config'
 import Helmet from 'react-helmet'
 /**
@@ -20,7 +18,6 @@ export default function EventTemplate({ data }) {
    */
   function getLinkButton() {
     let eventDate = moment(post.frontmatter.date, 'DD-MMM-YYYY')
-    let week=moment(post.frontmatter.date, 'DD-MMM-YYYY').add(feedback.feedback_days,'days');
 
    
 
@@ -35,19 +32,10 @@ export default function EventTemplate({ data }) {
       }
     }
 
-    function feedback_link(){
-      if(post.frontmatter.feedback_link !== undefined && post.frontmatter.feedback_link !== null) {
-        if (post.frontmatter.feedback_link.length > 0) {
-          return <FeedbackLink feedback_link={post.frontmatter.feedback_link} />
-        }
-      }
-    }
 
     if(today < eventDate._d){
       return registration_link();  
-    } else if(today < week){
-      return feedback_link();
-    }
+    } 
   }
 
   return (
@@ -59,9 +47,9 @@ export default function EventTemplate({ data }) {
         <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#"/>
         <meta property="og:type"   content="article" /> 
         <meta property="og:url"    content={`${GatsbyConfig.siteMetadata.link}${post.frontmatter.slug}`} /> 
-        <meta property="og:title"  content={`${post.frontmatter.name} | Sahyadri Open Source Community`} /> 
+        <meta property="og:title"  content={`${post.frontmatter.name} | KPRIET Toastmasters Club`} /> 
         <meta property="og:image"  content={post.frontmatter.cover.publicURL} /> 
-        <meta property="og:site_name" content="SOSC" />
+        <meta property="og:site_name" content="TMC" />
       </Helmet>
       <div className="page">
         <div className="container">
@@ -100,7 +88,6 @@ export const postQuery = graphql`
         date(formatString: "DD-MMM-YYYY")
         location
         link
-        feedback_link
         cover {
           publicURL
           childImageSharp {

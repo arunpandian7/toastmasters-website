@@ -1,7 +1,6 @@
 import React from 'react'
 
 const MemberCard = ({ username, full_name, designation }) => (
-  <a className="card-link" href={`https://github.com/${username}`}>
     <div className="member-card elevate white-bg">
 
       <img
@@ -15,7 +14,6 @@ const MemberCard = ({ username, full_name, designation }) => (
         <p className="designation">{designation}</p>
       </div>
     </div>
-  </a>
 )
 
 export default MemberCard
