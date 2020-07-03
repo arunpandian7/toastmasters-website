@@ -3,8 +3,11 @@ import Link from 'gatsby-link'
 import favicon from '../images/favicon.ico'
 import Helmet from 'react-helmet'
 import GatsbyConfig from '../../gatsby-config'
+// import Img from 'gatsby-image'
+import { graphql } from 'gatsby'
 
-const Header = ({ siteTitle }) => (
+
+const Header = props => (
   <div className="nav-bar">
     <Helmet
       title={GatsbyConfig.siteMetadata.title}
@@ -20,7 +23,7 @@ const Header = ({ siteTitle }) => (
 
     <div className="container">
       <div className="nav-items">
-        <span className="brand">{siteTitle}</span>
+        {/* <Img fluid={props.data.logotmc.childImageSharp.fluid}/> */}
         <ul>
           <li>
             <Link to="/" exact="true" activeClassName="active">
@@ -42,5 +45,27 @@ const Header = ({ siteTitle }) => (
     </div>
   </div>
 )
+
+
+
+export const logoImage = graphql`
+  fragment logoImage on File{
+    childImageSharp{
+      fluid (maxWidth: 800){
+        ...GatsbyImageSharpFluid_tracedSVG
+      }
+    }
+  }`
+
+export const logoQuery = graphql`
+    query {
+      logotmc: file(relativePath: { eq: "images/logo_grad.png"}){
+        childImageSharp{
+          fluid (maxWidth: 800){
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+      }
+    }`
 
 export default Header

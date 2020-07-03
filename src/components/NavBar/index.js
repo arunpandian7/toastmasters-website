@@ -9,7 +9,7 @@ const NavBar = ({ data }) => {
         <div className={Styles.navBar}>
             <Container>
                 <div className={Styles.navItems}>
-                    <Link to="/" className={Styles.brand}><span >SOSC</span></Link>
+                    <Link to="/" className={Styles.brand}><span >TMC</span></Link>
                     <a className={Styles.githubLogo} href="https://github.com/so-sc">
                         <img src={GitHubLogo} alt="GitHub"/>
                     </a>
