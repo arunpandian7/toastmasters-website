@@ -72,7 +72,7 @@ module.exports = {
         theme_color : '#FFFFFF',
         lang: 'en',
         display : 'standalone',
-        icon: 'src/images/logo_circle.png',
+        icon: 'src/images/icon_circle.png',
         icons:[
           {
             src: '/favicons/android-chrome-192x192.png',
