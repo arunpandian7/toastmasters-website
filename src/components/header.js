@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import GatsbyConfig from '../../gatsby-config'
 // import Img from 'gatsby-image'
 import { graphql } from 'gatsby'
+import logo from '../images/icon_circle.png'
 
 
 const Header = props => (
@@ -24,6 +25,7 @@ const Header = props => (
     <div className="container">
       <div className="nav-items">
         {/* <Img fluid={props.data.logotmc.childImageSharp.fluid}/> */}
+        <img src={logo} className="logo-img" alt="Logo" />
         <ul>
           <li>
             <Link to="/" exact="true" activeClassName="active">
