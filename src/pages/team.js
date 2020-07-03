@@ -30,6 +30,7 @@ const TeamsPage = ({ data }) => (
     <div className="page">
       <div className="container">
         <h2>Faculty Co-ordinators</h2>
+        <div className="dash"/>
         <div className="team-section">
           {/* Card for coordinators */}
           <div className="member-card white-bg elevate">
@@ -57,6 +58,7 @@ const TeamsPage = ({ data }) => (
           </div>
         </div>
         <h2>Designated Core Members</h2>
+        <div className="dash"/>
         <div className="team-section">{getMembers(data)}</div>
       </div>
     </div>
