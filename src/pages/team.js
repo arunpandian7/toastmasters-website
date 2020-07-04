@@ -52,7 +52,7 @@ const TeamsPage = ({ data }) => (
             />
 
             <div className="member-details">
-              <h3 className="name">Dr. Aarthi</h3>
+              <h3 className="name">Mrs. Aarthi</h3>
               <p className="designation">Faculty Coordinator</p>
             </div>
           </div>

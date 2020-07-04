@@ -1,6 +1,6 @@
 
 .hero-image {
-    width: 500px;
+    width: 450px;
     height: auto;
     flex-grow: 0;
     overflow: hidden;
@@ -8,11 +8,11 @@
     align-self: center;
     justify-self: center;
     @media #{$media-mobile} {
-        width: 400px;
+        width: 350px;
         overflow: hidden;
     }
     @media #{$media-small} {
-        width: 300px;
+        width: 250px;
         overflow: hidden;
     }
     img {
@@ -33,12 +33,14 @@
         flex-grow: 0;
         flex-direction: column;
         justify-content: center;
-        .tmc-logo {
-            width: 180px;
-            height: auto;
+
+        .tmc-desc{
+            max-width: 450px;
         }
+
         .tmc-header {
-            font-size: 2em;
+            letter-spacing: 1.4px;
+            font-size: 2.5em;
             font-weight: bold;
             margin: 20px 0px 10px 0px;
             @media #{$media-mobile} {
@@ -51,14 +53,14 @@
     }
     @media #{$media-mobile} {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin-top: 20px;
         height: auto;
         align-items: center;
     }
     @media #{$media-small} {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin-top: 20px;
         height: auto;
         align-items: center;
@@ -80,7 +82,7 @@
         flex-direction: column;
         justify-content: center;
         .hero-header {
-            font-size: 1.8em;
+            font-size: 2em;
             font-weight: bold;
             margin: 20px 0px 10px 0px;
             @media #{$media-mobile} {

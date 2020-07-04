@@ -5,6 +5,7 @@
     background-color: #ffffff;
     position: fixed;
     width: 100%;
+    height: auto;
     z-index: 99;
     box-shadow: 0 2px 6px 0 rgba(0,0,0,0.12);
 }
@@ -25,23 +26,6 @@
       align-items: flex-start;
     }
   
-    .brand {
-      color: #404140;
-      font-size: 1.8em;
-      font-family: 'organo';
-
-      @media #{$media-mobile} {
-        font-size: 1.6em;
-        padding-top: 20px;
-        margin-left: 20px;
-      }
-
-      @media #{$media-small} {
-        font-size: 1.6em;
-        padding-top: 20px;
-        margin-left: 15px;
-      }
-    }
   
     ul {
       list-style-type: none;
@@ -83,7 +67,7 @@
           display: inline-block;
           text-decoration: none;
           margin: 0;
-          padding: 25px;
+          padding: 30px;
           color: #373738;
           font-size: 1em;
   
@@ -92,11 +76,11 @@
           }
 
           @media #{$media-mobile} {
-            padding: 20px;
+            padding: 15px;
           }
     
           @media #{$media-small} {
-            padding: 15px;
+            padding: 10px;
           }
         }
         a.active {
@@ -107,6 +91,18 @@
     }
   }
 
+
+.logo{
+  padding-top: 5px;
+  margin-left: 10px;
   .logo-img{
-    max-width:75px;
+      max-width:75px;
+      @media #{$media-mobile} {
+        max-width: 50px;
+      }
+
+      @media #{$media-small} {
+        max-width: 60px;
+      }
   }
+}

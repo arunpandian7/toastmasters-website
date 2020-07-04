@@ -10,25 +10,21 @@ const IndexPage = props => (
       <div className="container">
         <section className="hero-section">
           <div className="hero-texts">
-            {/* <Img
-            fluid={props.data.imageFirst.childImageSharp.fluid}
-            className="tmc-logo"
-            />             */}
             <p className="tmc-header">
               KPRIET <br />
               Toastmasters Club
             </p>
 
-            <p>
-              Toastmasters Club is built by Students who have guts to express their opinions in structured
-              way and develop their Communicative and Stage Skills by helping each other.
+            <p className="tmc-desc">
+              The Toastmasters Club is a community built by people who strives to achieve eloquency in Public Speaking, enhancing communication 
+              skills and mastering stage skills.
             </p>
 
             <a
             href="#AttachGoogleFormLink"
             className = 'btn-hero-green'
             >
-            Join Us
+            Become a Member
             </a>
           </div>
 
@@ -55,10 +51,8 @@ const IndexPage = props => (
             <p className="hero-header">Who are we? </p>
             <div className = "dash" />
             <p>
-            People are often confused by the name "Toastmasters." Some think it's about learning how to give toasts at events. A few even think the organization has something to do with making toast. But it's not. <br /><br />
-            The KPRIET Toastmasters Club is an organization that enables members to improve English communication skills and terminate stage fear in a safe, encouraging, supportive environment for the students to speak up as icebreaker.
-
-
+            People are often confused by the name "Toastmasters", thinking it's about giving toasts at events. It's funny how some people think this organization has something to do with making bread toast. But it's not what we are. <br /><br />
+            The KPRIET Toastmasters Club is an organization that enables a student to improve communication skill and terminate stage fear in a safe, encouraging, supportive environment for the students to speak up as icebreaker.
             </p>
           </div>
         </section>
@@ -70,8 +64,8 @@ const IndexPage = props => (
             <p className = "hero-header">What do we do?</p>
             <div className="dash" />
             <p>
-            The KPRIET Toastmasters Club fosters people and develop the public speaking skills of the students and reduce their stage fear through nuiances like Non-Verbal which also enhances their English language skills.
-            We provide constant moc support in terms of content writing and speaking.
+            The KPRIET Toastmasters Club is an exclusive club where we unite, take up responsibilities and organise events for our own development.
+            We endeavour to escalate our talents and help others to explore their inner self by creating a stimulating environment. 
             </p>
           </div>
           <Img

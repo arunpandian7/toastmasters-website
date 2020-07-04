@@ -3,8 +3,6 @@ import Link from 'gatsby-link'
 import favicon from '../images/favicon.ico'
 import Helmet from 'react-helmet'
 import GatsbyConfig from '../../gatsby-config'
-// import Img from 'gatsby-image'
-import { graphql } from 'gatsby'
 import logo from '../images/icon_circle.png'
 
 
@@ -25,10 +23,12 @@ const Header = props => (
     <div className="container">
       <div className="nav-items">
         {/* <Img fluid={props.data.logotmc.childImageSharp.fluid}/> */}
-        <img src={logo} className="logo-img" alt="Logo" />
+        <div className="logo">
+          <img src={logo} className="logo-img" alt="Logo" />
+        </div>
         <ul>
           <li>
-            <Link to="/" exact="true" activeClassName="active">
+            <Link to="/" exact="true" activeClassName="active" >
               Home
             </Link>
           </li>
@@ -49,25 +49,5 @@ const Header = props => (
 )
 
 
-
-export const logoImage = graphql`
-  fragment logoImage on File{
-    childImageSharp{
-      fluid (maxWidth: 800){
-        ...GatsbyImageSharpFluid_tracedSVG
-      }
-    }
-  }`
-
-export const logoQuery = graphql`
-    query {
-      logotmc: file(relativePath: { eq: "images/logo_grad.png"}){
-        childImageSharp{
-          fluid (maxWidth: 800){
-            ...GatsbyImageSharpFluid_tracedSVG
-          }
-        }
-      }
-    }`
 
 export default Header
