@@ -41,13 +41,13 @@ export default function EventTemplate({ data }) {
   return (
     <Layout>
       <Helmet>
-        <title>{`${post.frontmatter.name} | Sahyadri Open Source Community`}</title>
+        <title>{`${post.frontmatter.name} | KPRIET Toastmasters Club`}</title>
         <link rel="canonical" href="https://sosc.org.in"/>
         <meta name="description" content={post.excerpt} />
         <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#"/>
         <meta property="og:type"   content="article" /> 
         <meta property="og:url"    content={`${GatsbyConfig.siteMetadata.link}${post.frontmatter.slug}`} /> 
-        <meta property="og:title"  content={`${post.frontmatter.name} | KPRIET Toastmasters Club`} /> 
+        <meta property="og:title"  content={`${post.frontmatter.name} | TMC KPRIET`} /> 
         <meta property="og:image"  content={post.frontmatter.cover.publicURL} /> 
         <meta property="og:site_name" content="TMC" />
       </Helmet>
