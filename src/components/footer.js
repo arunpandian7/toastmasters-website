@@ -12,7 +12,7 @@ const Footer = ({ siteTitle }) => (
         <div className="column">
           <h4> Follow us and Say Hello! </h4>
           <div className="social-icons">
-            <a href="https://www.instagram.com/kpriet_toastmasters_club/?igshid=12bf7lqaig4wn"><FontAwesomeIcon icon={faFacebook} size="2x" aria-label="FB Button"/> </a>
+            <a href="https://www.facebook.com/Kpr_toastmasters-club-100403728414272/"><FontAwesomeIcon icon={faFacebook} size="2x" aria-label="FB Button"/> </a>
             <a href="https://www.instagram.com/kpriet_toastmasters_club/?igshid=12bf7lqaig4wn"><FontAwesomeIcon icon={faInstagram} size="2x" aria-label="IG Button"/></a>
             <a href="https://bit.ly/tmc-podcast"><FontAwesomeIcon icon={faSpotify} size="2x" aria-label="Spotify Button"/></a>
           </div>
