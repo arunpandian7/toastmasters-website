@@ -32,6 +32,16 @@ footer {
             align-content: flex-start;
             padding: 10px;
 
+            .social-icons{
+                a{
+                    padding-left: 20px;
+                    :hover{
+                        color: #002320;
+                    }
+                }
+            }
+
+
             a {
                 text-decoration: none;
                 padding: 10px;

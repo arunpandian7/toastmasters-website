@@ -161,11 +161,21 @@
     height: auto;
     align-items: center;
     justify-content: center;
+    .hero-image{
+        width: 600px;
+        @media #{$media-mobile}{
+            width: 450px;
+        }
+        @media #{$media-small}{
+            width: 350px;
+        }
+    }
     .hero-texts {
         display: flex;
         flex-grow: 0;
         flex-basis: 50%;
         margin: 10px;
+        margin-left: 20px;
         flex-direction: column;
         justify-content: center;
         .hero-header {
@@ -236,4 +246,11 @@
         height: auto;
         align-items: center;
     }
+}
+
+.web-link{
+    text-decoration: none;
+    color: #1DB954;
+    
+
 }

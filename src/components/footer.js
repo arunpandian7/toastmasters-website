@@ -1,22 +1,39 @@
 import React from 'react'
-
+import {
+  faInstagram,
+  faFacebook,
+  faSpotify
+} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = ({ siteTitle }) => (
   <footer>
     <div className="container">
       <div className="info-area">
         <div className="column">
-          <a href="https://instagram.com/sosc.sahyadri">Instagram</a>
-          <a href="https://linkedin.com/company/sosc-sahyadri">LinkedIn</a>
-          <a href="https://twitter.com/sahyadri_osc">Twitter</a>
+          <h4> Follow us and Say Hello! </h4>
+          <div className="social-icons">
+            <a href="https://www.instagram.com/kpriet_toastmasters_club/?igshid=12bf7lqaig4wn"><FontAwesomeIcon icon={faFacebook} size="2x" aria-label="FB Button"/> </a>
+            <a href="https://www.instagram.com/kpriet_toastmasters_club/?igshid=12bf7lqaig4wn"><FontAwesomeIcon icon={faInstagram} size="2x" aria-label="IG Button"/></a>
+            <a href="https://bit.ly/tmc-podcast"><FontAwesomeIcon icon={faSpotify} size="2x" aria-label="Spotify Button"/></a>
+          </div>
+        </div>
+
+        <div className="column">
+          <p>
+            <strong>For info and Query, Contact</strong><br/>
+            Abishek Velavan - +91 76396 45032<br/>
+            Aravind T - +91 98941 62769 <br/>
+            <br/>
+            <strong>Mail to :</strong><br/>
+            <a href="mailto:toastmastersofficial7@gmail.com">toastmastersofficial7@gmail.com</a><br/>
+          </p>
         </div>
         
         <div className="column">
           <p>
             <strong>The Toastmasters Club,</strong><br/>
             KPR Institute of Engineering and Technology,<br/>
-            Avinashi Road, Arasur, Coimbatore IN<br/><br/>
-            toastmastersofficial7@gmail.com<br/>
-            +91 76396 45032
+            Avinashi Road, Arasur, <br/>Coimbatore IN
           </p>
         </div>
       </div>

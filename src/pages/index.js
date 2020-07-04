@@ -88,11 +88,12 @@ const IndexPage = props => (
             <p className="hero-header">Join our Team</p>
             <div className="dash" />
             <p>
-            Lorem Ipsum fdjkflasfjsakld
+                KPRIET Toastmasters Club is more than a club like a family, we help each other and share enriching thoughts.
+                We have a healthy competition which would bring the best out of us. You can find the ultimate fun of college life. It's a good place to find friends.
             
             </p>
             <Link to="/team" className="btn-hero-green">
-              Learn More
+              Find Us
             </Link>
           </div>
         </section>
@@ -103,13 +104,13 @@ const IndexPage = props => (
           <p className="hero-header"> Our Basic Activities</p>
           <div className="dash" />
           <p>
-            We conduct regular meetings
+            In Toastmasters Club, we enrich our skills by doing many fun things. Here are few things that we do,
             <ul>
-            <li>contests</li>
-            <li>events</li>
-            <li>Webinars</li>
-            <li>Anchoring & Content writing skills</li>
-            <li>Online certification courses</li>
+            <li>Exciting Contests</li>
+            <li>Entertaining Events</li>
+            <li>Informative Webinars</li>
+            <li>Anchoring other events</li>
+            <li>Trendy Podcasts @ <a className="web-link" href="https://bit.ly/tmc-podcast">Spotify</a> </li>
             </ul>
           </p>
         </div>
