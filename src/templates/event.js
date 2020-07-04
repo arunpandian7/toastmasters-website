@@ -42,7 +42,7 @@ export default function EventTemplate({ data }) {
     <Layout>
       <Helmet>
         <title>{`${post.frontmatter.name} | KPRIET Toastmasters Club`}</title>
-        <link rel="canonical" href="https://sosc.org.in"/>
+        <link rel="canonical" href="https://tmc.kpriet.ac.in"/>
         <meta name="description" content={post.excerpt} />
         <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#"/>
         <meta property="og:type"   content="article" /> 
