@@ -66,7 +66,7 @@ module.exports = {
       options : {
         name: 'KPRIET Toastmasters Club',
         description: 'The Offcial TMC Website',
-        short_name : 'TMC',
+        short_name : 'Toastmasters Club',
         start_url: '/',
         background_color:'#FFFFFF',
         theme_color : '#FFFFFF',
