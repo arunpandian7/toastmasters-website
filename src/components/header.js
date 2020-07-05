@@ -11,10 +11,10 @@ const Header = props => (
     <Helmet
       title={GatsbyConfig.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'KPRIET Toastmasters Club' },
+        { name: 'description', content: 'The official site of KPRIET Toastmasters Club, KPRIET.' },
         {
           name: 'keywords',
-          content: 'Community, Toastmasters, Orators, KPR, college',
+          content: 'Community, Toastmasters, Orators, KPR, KPRIET, Toastmasters International, College, Engineering, Coimbatore',
         },
       ]}
       link={[{ rel: 'shortcut icon', type: 'image/ico', href: `${favicon}` }]}

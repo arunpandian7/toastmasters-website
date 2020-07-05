@@ -28,7 +28,28 @@ const TeamsPage = ({ data }) => (
   <Layout>
     <CustomHelmet page={GatsbyConfig.siteMetadata.team} />
     <div className="page">
+      
       <div className="container">
+      <h2>Executive Chairperson</h2>
+        <div className="dash"/>
+        <div className="team-section">
+          {/* Card for coordinators */}
+          <a href="http://www.kpriet.ac.in/about-us/#Institution" className="card-link">
+          <div className="member-card white-bg elevate">
+            <Img
+              fluid={data.imagePrincipal.childImageSharp.fluid}
+              className="profile-pic"
+            />
+
+            <div className="member-details">
+              <h3 className="name">Dr. Akila M</h3>
+              <p className="designation">Principal, KPRIET</p>
+            </div>
+          </div>
+          </a>
+        </div>
+
+
         <h2>Faculty Co-ordinators</h2>
         <div className="dash"/>
         <div className="team-section">
@@ -40,7 +61,7 @@ const TeamsPage = ({ data }) => (
             />
 
             <div className="member-details">
-              <h3 className="name">Dr. Charle Jerome</h3>
+              <h3 className="name">Dr. Charly Jerome J</h3>
               <p className="designation">Faculty Coordinator</p>
             </div>
           </div>
@@ -85,14 +106,21 @@ export const teamQuery = graphql`
     }
     imageCoord1: file(relativePath: { eq: "images/charlie-sir.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 200) {
+        fluid(maxWidth: 300) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
     imageCoord2: file(relativePath: { eq: "images/aarthi-mam.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 200) {
+        fluid(maxWidth: 300) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    imagePrincipal: file(relativePath: { eq: "images/akila-mam.jpeg" }) {
+      childImageSharp {
+        fluid(maxWidth: 300) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }

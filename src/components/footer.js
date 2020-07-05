@@ -22,10 +22,10 @@ const Footer = ({ siteTitle }) => (
           <p>
             <strong>For info and Query, Contact</strong><br/>
             Abishek Velavan - +91 76396 45032<br/>
-            Aravind T - +91 98941 62769 <br/>
+            Aravind T <span className="number-formatting">- +91 98941 62769 </span> <br/>
             <br/>
             <strong>Mail to :</strong><br/>
-            <a href="mailto:toastmastersofficial7@gmail.com">toastmastersofficial7@gmail.com</a><br/>
+            <a href="mailto:kpriettoastmastersclub@gmail.com">kpriettoastmastersclub@gmail.com</a><br/>
           </p>
         </div>
         

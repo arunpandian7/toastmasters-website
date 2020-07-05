@@ -38,11 +38,12 @@
             max-width: 450px;
         }
 
+
         .tmc-header {
             letter-spacing: 1.4px;
             font-size: 2.5em;
             font-weight: bold;
-            margin: 20px 0px 10px 0px;
+            margin: 20px 0px 0px 0px;
             @media #{$media-mobile} {
                 font-size: 1.5em;
             }
@@ -50,19 +51,36 @@
                 font-size: 1.5em;
             }
         }
+
+        .tmc-subheader{
+            font-size: 0.9em;
+            font-weight: 100;
+            letter-spacing: 1.5px;
+            color: rgb(169,169,169);
+            margin: 0px 0px 0px 5px;
+            @media #{$media-mobile}{
+                font-size: 0.75em;
+            }
+            @media #{$media-small} {
+                font-size: 0.75em;
+                
+            }
+        }
     }
     @media #{$media-mobile} {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 20px;
+        margin-top: 40px;
         height: auto;
         align-items: center;
     }
     @media #{$media-small} {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 20px;
+        margin-top: 60px;
+        margin-bottom: 40px;
         height: auto;
+        min-height: auto;
         align-items: center;
     }
 }
@@ -127,7 +145,7 @@
         flex-direction: column;
         justify-content: center;
         .hero-header {
-            font-size: 1.8em;
+            font-size: 2em;
             font-weight: bold;
             margin: 20px 0px 10px 0px;
             @media #{$media-mobile} {
@@ -179,7 +197,7 @@
         flex-direction: column;
         justify-content: center;
         .hero-header {
-            font-size: 1.8em;
+            font-size: 2em;
             font-weight: bold;
             margin: 20px 0px 10px 0px;
             @media #{$media-mobile} {
@@ -221,7 +239,7 @@
         flex-direction: column;
         justify-content: center;
         .hero-header {
-            font-size: 1.8em;
+            font-size: 2em;
             font-weight: bold;
             margin: 20px 0px 10px 0px;
             @media #{$media-mobile} {
@@ -251,6 +269,12 @@
 .web-link{
     text-decoration: none;
     color: #1DB954;
-    
+}
 
+.team-btns{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    span{
+        padding: 10px;
+    }
 }

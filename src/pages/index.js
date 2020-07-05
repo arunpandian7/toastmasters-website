@@ -15,13 +15,17 @@ const IndexPage = props => (
               Toastmasters Club
             </p>
 
+            <p className="tmc-subheader">
+              A branch of KPRIET's Sangamam
+            </p>
+
             <p className="tmc-desc">
-              The Toastmasters Club is a community built by people who strives to achieve eloquency in Public Speaking, enhancing communication 
+              A community built by people who strives to achieve eloquency in Public Speaking, enhancing communication 
               skills and mastering stage skills.
             </p>
 
             <a
-            href="#AttachGoogleFormLink"
+            href="https://forms.gle/X2iajLTBBks4p4i6A"
             className = 'btn-hero-green'
             >
             Become a Member
@@ -92,9 +96,15 @@ const IndexPage = props => (
                 We have a healthy competition which would bring the best out of us. You can find the ultimate fun of college life. It's a good place to find friends.
             
             </p>
-            <Link to="/team" className="btn-hero-green">
-              Find Us
-            </Link>
+            <div className="team-btns">
+              <Link to="/team" className="btn-hero-green">
+                Find Us
+              </Link>
+              <span></span>
+              <a href="https://forms.gle/X2iajLTBBks4p4i6A" className="btn-hero-green">
+                Join Us
+              </a>
+            </div>
           </div>
         </section>
       </div>
