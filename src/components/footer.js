@@ -21,11 +21,11 @@ const Footer = ({ siteTitle }) => (
         <div className="column">
           <p>
             <strong>For info and Query, Contact</strong><br/>
-            Abishek Velavan - +91 76396 45032<br/>
+            Abishek Velavan D - +91 76396 45032<br/>
             Aravind T <span className="number-formatting">- +91 98941 62769 </span> <br/>
             <br/>
             <strong>Mail to :</strong><br/>
-            <a href="mailto:kpriettoastmastersclub@gmail.com">kpriettoastmastersclub@gmail.com</a><br/>
+            <a href="mailto:toastmastersclub@kpriet.ac.in">toastmastersclub@kpriet.ac.in</a><br/>
           </p>
         </div>
         
@@ -45,7 +45,7 @@ const Footer = ({ siteTitle }) => (
 
       <div className="credit-text">
         <p>
-        Developed with ❤ by <a href="https://arunpandian7.github.io"> Arun Pandian R </a>
+        Developed with ❤ by <a href="https://arunpandian7.github.io"> Arun Pandian R </a>, CSE
         </p>
       </div> 
 
