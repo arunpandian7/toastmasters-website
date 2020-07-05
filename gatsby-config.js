@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'KPRIET TMC',
+    title: 'Toastmasters Club | KPRIET',
     siteUrl: 'https://tmc.kpriet.ac.in',
     events: {
       title: 'TMC - Events',
