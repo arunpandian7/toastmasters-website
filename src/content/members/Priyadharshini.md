@@ -1,5 +1,5 @@
 ---
-username: priyadharshini-v
+username: v-priyadharshini
 name: Priyadharshini V
 designation: Event Coordinator
 pos:
