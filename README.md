@@ -10,8 +10,7 @@
 The official website of KPRIET Toastmasters Club, a college community of students ceaselessly trying to improve their communication and stage speaking skills.
 
 <h3>
-  Author:
-  <a href="https://arunpandian.me">Arun Pandian R</a>
+  Author: <a href="https://arunpandian.me">Arun Pandian R</a>
 </h3>
 
 
