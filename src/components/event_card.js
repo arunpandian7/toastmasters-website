@@ -9,7 +9,7 @@ function isUpcoming(date) {
   let today = new Date()
   today.setHours(0, 0, 0, 0)
   if (today < eventDate._d) {
-    return `(Upcoming)`
+    return (<p className="card-upcoming">Register Now</p>)
   } else {
     return ``
   }
@@ -35,7 +35,7 @@ const Card = props => (
               __html: `${props.date}`,
             }}
           />
-         <p className="card-upcoming">{isUpcoming(props.date)}</p>
+         {isUpcoming(props.date)}
         </div>
       </div>
     </Link>
