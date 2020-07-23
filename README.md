@@ -12,7 +12,7 @@
 
 </div>
 
-The official website of [KPRIET Toastmasters Club](https://github.com/arunpandian7/toastmasters-website/blob/3c61ce0be4615b13ead25964341fb3d470b61368/README.md#L2), a college community of students ceaselessly trying to improve their communication and stage speaking skills.
+The official website of [KPRIET Toastmasters Club](https://toastmasters-club-kpriet.netlify.app/), a college community of students ceaselessly trying to improve their communication and stage speaking skills.
 
 <h3>
   Author: <a href="https://arunpandian.me">Arun Pandian R</a>
