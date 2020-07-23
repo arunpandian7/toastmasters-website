@@ -6,8 +6,13 @@
 <h1 align="center">
   KPRIET Toastmasters Club
 </h1>
+<div align="center">
 
-The official website of KPRIET Toastmasters Club, a college community of students ceaselessly trying to improve their communication and stage speaking skills.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9c42320b-c453-4d26-90f7-8b109c1869c3/deploy-status)](https://app.netlify.com/sites/toastmasters-club-kpriet/deploys)
+
+</div>
+
+The official website of [KPRIET Toastmasters Club](https://github.com/arunpandian7/toastmasters-website/blob/3c61ce0be4615b13ead25964341fb3d470b61368/README.md#L2), a college community of students ceaselessly trying to improve their communication and stage speaking skills.
 
 <h3>
   Author: <a href="https://arunpandian.me">Arun Pandian R</a>
