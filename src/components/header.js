@@ -16,6 +16,10 @@ const Header = props => (
           name: 'keywords',
           content: 'Community, Toastmasters, Orators, KPR, KPRIET, Toastmasters International, College, Engineering, Coimbatore',
         },
+        {
+          name="google-site-verification", 
+          content="S25r4aVHM-vcCs3aXFCeEJ1UAbom7gYGc0PcLhjB6-4"
+        },
       ]}
       link={[{ rel: 'shortcut icon', type: 'image/ico', href: `${favicon}` }]}
     />

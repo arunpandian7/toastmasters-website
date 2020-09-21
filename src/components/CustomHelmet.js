@@ -9,10 +9,9 @@ const CustomHelmet = ({ page, image }) => (
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
         />
-        <meta name="twitter:site" content="@sosc" />
+        <meta name="twitter:site" content="@kpriettoastmasters" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="SOSC" />
-        <meta name="google-site-verification" content="S25r4aVHM-vcCs3aXFCeEJ1UAbom7gYGc0PcLhjB6-4" />
+        <meta property="og:site_name" content="TMC" />
         <link
             rel="canonical"
             href={page.siteUrl}
