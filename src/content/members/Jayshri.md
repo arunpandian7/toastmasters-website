@@ -1,6 +1,6 @@
 ---
 username: jayashri-N
-name: Jayshri N
-designation: Event Coordinator
-pos:
+name: Jayashri N
+designation: Club Coordinator
+pos: 4
 ---

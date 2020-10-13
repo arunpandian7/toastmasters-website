@@ -1,6 +1,6 @@
 ---
 username: gokul-siva-1322
-name: Gokul
-designation: Joint Treasurer
+name: Gokul B
+designation: Treasurer
 pos: 7
 ---

@@ -1,6 +1,6 @@
 ---
 username: Sujitha21
 name: Sujitha D
-designation: Event Coordinator
-pos:
+designation: Executive Member
+pos: 17
 ---

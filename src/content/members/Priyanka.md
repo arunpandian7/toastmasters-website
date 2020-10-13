@@ -1,6 +1,6 @@
 ---
 username: Priyankapriyo
 name: Priyanka S
-designation: Event Coordinator
-pos:
+designation: Executive Member
+pos: 16
 ---

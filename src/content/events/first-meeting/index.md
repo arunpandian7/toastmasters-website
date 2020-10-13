@@ -9,7 +9,7 @@ link: http://bit.ly/scemcloudstudyjam
 
 # Theme: Technology: Boon or Bait
 
-Toastmaster of the Day : Abhisek Velavan
+Toastmaster of the Day : Abishek Velavan
 
 ### Best Prepared Speaker: Naveen Kumaran R
 ### Best Evaluator : Komal T

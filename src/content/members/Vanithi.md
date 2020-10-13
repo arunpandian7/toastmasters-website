@@ -1,6 +1,6 @@
 ---
 username: vanithi
 name: Vanithi K
-designation: Event Coordinator
-pos:
+designation: Executive Member
+pos: 15
 ---

@@ -1,6 +1,6 @@
 ---
 username: v-priyadharshini
 name: Priyadharshini V
-designation: Event Coordinator
-pos:
+designation: Executive Member
+pos: 14
 ---

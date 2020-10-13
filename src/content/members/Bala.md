@@ -1,6 +1,6 @@
 ---
 username: Balasubramaniam077
 name: Balasubramaniam V
-designation: Event Coordinator
-pos:
+designation: Joint Treasurer
+pos: 9
 ---
