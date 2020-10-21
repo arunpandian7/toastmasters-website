@@ -1,7 +1,7 @@
 ---
 slug: /events/Endgame
 name: Meeting 004
-date: 2020-06-15
+date: 2020-03-12
 location: Thanam Hall
 cover: './ss.jpg'
 link: http://bit.ly/scemcloudstudyjam
