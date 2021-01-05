@@ -13,7 +13,6 @@ link: https://youtu.be/d0tJVqMaKm0
 
 Commentators of the Match : T.M. Vaishnavi and T.M.Sruthi
 
-###Click The Register now button and Set Remainder to Watch Live
-
-And do not forget to subscribe the channel
-
+### BEST PREPARED SPEAKER - T.M. NIGUN SANJAY
+### BEST TABLE TOPIC SPEAKER - T.M. ARAVIND
+### BEST EVALUATOR - T.M. GOWRI
