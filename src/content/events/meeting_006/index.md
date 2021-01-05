@@ -14,5 +14,5 @@ Toastmasters of the Day : T.M. Gokula Priya and T.M. Jayashri
 Attendance : 120+ Members
 
 ### Best Prepared Speaker : T.M. Charuni
-### Best Table Topic Speaker : T.M. Nigun Sanjya
+### Best Table Topic Speaker : T.M. Nigun Sanjay
 ### Best Evaluator : T.M. Iniya
