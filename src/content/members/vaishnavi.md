@@ -1,6 +1,6 @@
 ---
 username: vaishu1427
 name: Vaishnavi S
-designation: Event Coordinator
-pos: 21
+designation: Executive Member
+pos: 18
 ---

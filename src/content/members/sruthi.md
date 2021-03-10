@@ -1,6 +1,6 @@
 ---
 username: Sruthi-19
 name: Sruthi R
-designation: Event Coordinator
-pos: 18
+designation: Executive Member
+pos: 16
 ---
