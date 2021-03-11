@@ -2,5 +2,5 @@
 username: Chandhru-08
 name: Chandhru L
 designation: Executive Member
-pos: 13
+pos: 12
 ---

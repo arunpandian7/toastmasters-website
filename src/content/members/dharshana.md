@@ -1,6 +1,6 @@
 ---
 username: Dharshana-lang
 name: Dharshana
-designation: Junior Event Coordinator
-pos: 25
+designation: Event Coordinator
+pos: 21
 ---
