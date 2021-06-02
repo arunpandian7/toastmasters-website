@@ -2,5 +2,5 @@
 username: jayashri-N
 name: Jayashri N
 designation: Club Coordinator
-pos: 3
+pos: 1
 ---

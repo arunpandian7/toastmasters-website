@@ -1,6 +1,6 @@
 ---
 username: Brindhavenkat
 name: Brindha V
-designation: MOC Coordinator
-pos: 10
+designation: Treasurer
+pos: 6
 ---

@@ -1,6 +1,6 @@
 ---
 username: Shakthy02
 name: Shakthy 
-designation: Club Coordinator
-pos: 4
+designation: Joint Treasurer
+pos: 8
 ---

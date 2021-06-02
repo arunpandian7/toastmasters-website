@@ -73,8 +73,8 @@ const TeamsPage = ({ data }) => (
             />
 
             <div className="member-details">
-              <h3 className="name">Mrs. Aarthi</h3>
-              <p className="designation">Faculty Coordinator</p>
+              <h3 className="name">Dr. Saranya R</h3>
+              <p className="designation">Associate Head</p>
             </div>
           </div>
         </div>
@@ -111,7 +111,7 @@ export const teamQuery = graphql`
         }
       }
     }
-    imageCoord2: file(relativePath: { eq: "images/aarthi-mam.jpg" }) {
+    imageCoord2: file(relativePath: { eq: "images/saranya-mam.jpeg" }) {
       childImageSharp {
         fluid(maxWidth: 300) {
           ...GatsbyImageSharpFluid_tracedSVG
