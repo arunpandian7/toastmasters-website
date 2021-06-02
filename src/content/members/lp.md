@@ -2,5 +2,5 @@
 username: lekshmipriya1214
 name: Lekshmi Priya S
 designation: Executive Member
-pos: 15
+pos: 12
 ---

@@ -1,6 +1,6 @@
 ---
 username: Nisha-chillzz
 name: Nisha
-designation: Event Coordinator
-pos: 26
+designation: Executive Member
+pos: 16
 ---

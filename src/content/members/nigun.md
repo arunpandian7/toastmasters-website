@@ -1,6 +1,6 @@
 ---
 username: nigun2003
 name: Nigun Sanjai
-designation: Event Coordinator
-pos: 25
+designation: MOC & Podcasts Coordinator
+pos: 10
 ---
