@@ -141,7 +141,7 @@ const IndexPage = props => (
 export const firstSiteImages = graphql`
   fragment firstSiteImages on File{
     childImageSharp{
-      fluid (maxWidth: 800){
+      fluid (maxWidth: 800, quality: 90){
         ...GatsbyImageSharpFluid_tracedSVG
       }
     }
